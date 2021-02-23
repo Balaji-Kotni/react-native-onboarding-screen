@@ -4,7 +4,7 @@
 #import <React/RCTBundleURLProvider.h>
 #import <React/RCTRootView.h>
 
-//  #ifdef FB_SONARKIT_ENABLED
+  #ifdef FB_SONARKIT_ENABLED
 //  #import <FlipperKit/FlipperClient.h>
 //  #import <FlipperKitLayoutPlugin/FlipperKitLayoutPlugin.h>
 //  #import <FlipperKitUserDefaultsPlugin/FKUserDefaultsPlugin.h>
@@ -21,7 +21,7 @@
 //    [client addPlugin:[[FlipperKitNetworkPlugin alloc] initWithNetworkAdapter:[SKIOSNetworkAdapter new]]];
 //    [client start];
 //  }
-// #endif
+  #endif
 
 @implementation AppDelegate
 
